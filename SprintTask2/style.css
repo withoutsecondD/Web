@@ -1,0 +1,353 @@
+@import url(https://db.onlinewebfonts.com/c/5795a47e252d16c82bb79fa354b224db?family=VK+Sans+Display+Regular);
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "VK Sans display regular", sans-serif;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #e4ecef;
+}
+
+/* PROFILE PAGE STYLES */
+
+	/* HEADER STYLES */
+
+	#profilePageHeader {
+		width: 100%;
+		height: 7%;
+		background-color: #447bba;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#profilePageHeader > div {
+		width: 85%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	#profilePageHeader > div > img {
+		height: 70%;
+		margin-left: 20px;
+	}
+
+	#searchBar {
+		width: 20%;
+		height: 60%;
+		margin-left: 180px;
+		background-color: #234162;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+	}
+
+	#searchBar img {
+		margin-left: 10px;
+		height: 60%;
+	}
+
+	#searchBar input {
+		margin-left: 10px;
+		background-color: transparent;
+		border: none;
+		font-size: 14px;
+		outline: none;
+		caret-color: white;
+		color: #ffffff;
+	}
+
+	:focus::-webkit-input-placeholder {
+		color: transparent
+	}
+
+	:focus::-moz-placeholder {
+		color: transparent
+	}
+
+	:focus:-moz-placeholder {
+		color: transparent
+	}
+
+	:focus:-ms-input-placeholder {
+		color: transparent
+	}
+
+	/* MAIN SECTION STYLES */
+
+	#profileMainSection {
+		width: 80%;
+		height: 90%;
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#actionsTab {
+		width: 15%;
+		height: 40%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding-top: 5px;
+	}
+
+	#actionsTab a {
+		margin-left: 20px;
+		color: #656d8a;
+		text-decoration: none;
+	}
+
+	#actionsTab a:hover {
+		color: #414759;
+	}
+
+	#avatarAndFriendsTab {
+		width: 25%;
+		height: 100%;
+	}
+
+	#avatarContainer {
+		width: 100%;
+		height: 54%;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+	#avatarContainer img {
+		width: 85%;
+	}
+
+	#avatarContainer button {
+		width: 85%;
+		height: 10%;
+		font-size: 16px;
+		border: none;
+		background-color: #e4ecef;
+		color: #656d8a;
+	}
+
+	#avatarContainer button:hover {
+		background-color: #c8ccd2;
+		color: #7882a6;
+		cursor: pointer;
+	}
+
+	#friendsContainer {
+		width: 100%;
+		height: 32%;
+		background-color: white;
+		margin-top: 15px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#friendsTitle {
+		width: 90%;
+		height: 15%;
+		color: #656d8a;
+		font-size: 16px;
+	}
+
+	#friendsAvatars {
+		width: 80%;
+		height: 70%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-content: space-between;
+	}
+
+	#friendsAvatars > div {
+		width: 30%;
+		height: 45%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		color: #656d8a;
+		font-size: 14px;
+	}
+
+	#friendsAvatars img {
+		border-radius: 50%;
+		width: 70%;
+	}
+
+	#rightTab {
+		width: 55%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	#infoTab {
+		width: 100%;
+		height: 40%;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#photosTab {
+		width: 100%;
+		height: 28%;
+		background-color: white;
+	}
+
+	#postTab {
+		width: 100%;
+		height: 30%;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#nameStatusDiv {
+		width: 100%;
+		height: 22%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	#name {
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+	}
+
+	#status {
+		width: 90%;
+		padding-bottom: 5px;
+		border-bottom: 1px solid #939393;
+	}
+
+	#detailsDiv {
+		width: 90%;
+		height: 50%;
+		padding-bottom: 5px;
+		border-bottom: 1px solid #939393;
+	}
+
+	#detailsDiv > div {
+		width: 70%;
+		height: 100%;
+		background-color: #ffffff;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#characteristics {
+		display: flex;
+		flex-direction: column;
+		color: #5b5b5b;
+	}
+
+	#values {
+		display: flex;
+		flex-direction: column;
+		color: #3a3f9b;
+	}
+
+	#characteristics span {
+		margin-top: 5px;
+	}
+
+	#values span {
+		margin-top: 5px;
+	}
+
+	#numbersDiv {
+		width: 90%;
+		height: 28%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#numbersDiv > div {
+		width: 15%;
+		height: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.characteristicName {
+		font-size: 14px;
+		color: #5b5b5b;
+	}
+
+	.characteristicNumber {
+		font-size: 24px;
+		color: #3a3f9b;
+	}
+
+	#photosTab {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+	#photosLabel {
+		width: 90%;
+		height: 15%;
+	}
+
+	#photoSet {
+		width: 90%;
+		height: 70%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#photoSet img {
+		width: 23%;
+		object-fit: cover;
+	}
+
+	#author {
+		width: 90%;
+		height: 20%;
+		margin-top: 10px;
+		display: flex;
+	}
+
+	#author img {
+		border-radius: 50%;
+		height: 100%;
+	}
+
+	#author > div {
+		margin-left: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	#post {
+		width: 90%;
+		height: 70%;
+	}
