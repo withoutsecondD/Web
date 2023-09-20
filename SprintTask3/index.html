@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprint Task 3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form class="mainForm">
+        <div class="sendDataDiv">
+            <div class="inputDiv">
+                <label for="money" class="inputLabel">Введите сумму:</label>
+                <input type="text" id="money">
+            </div>
+            <div class="selectDiv">
+                <select id="currency">
+                    <option>KZT</option>
+                    <option>USD</option>
+                    <option>EUR</option>
+                </select>
+            </div>
+        </div>
+        <div class="resultDiv">
+            <label for="moneyInKZT" class="resultLabel">KZT (tenge)</label>
+            <div id="moneyInKZT" class="resultBar">-</div>
+        </div>
+        <div class="resultDiv">
+            <label for="moneyInUSD" class="resultLabel">USD (dollar)</label>
+            <div id="moneyInUSD" class="resultBar">-</div>
+        </div>
+        <div class="resultDiv">
+            <label for="moneyInEUR" class="resultLabel">EUR (euro)</label>
+            <div id="moneyInEUR" class="resultBar">-</div>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
